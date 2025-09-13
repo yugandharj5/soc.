@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IRCTC - eQuery</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        .left {
+            flex: 1;
+            background-image: url('https://eqquery.irctc.co.in/irctc_equery/assets/IRCTC_Train_Image_V2-Dk2Re8hL.webp'); /* Public URL for the image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .right {
+            width: 400px;
+            background-color: #1f1f1f;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"] {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .captcha {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .captcha img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .submit-btn {
+            background-color: #f26522;
+            color: white;
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #d35400;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #ff5f5f;
+        }
+
+        .note strong {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left"></div>
+
+    <div class="right">
+        <h1>Welcome To <br> IRCTC - eQuery</h1>
+
+        <form>
+            <div class="form-group">
+                <input type="email" placeholder="Enter Email ID">
+            </div>
+
+            <div style="text-align: center; margin: 10px 0;">or</div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter Mobile Number">
+            </div>
+
+            <div class="captcha">
+                <img src="https://via.placeholder.com/100x40.png?text=MP+w+wmX" alt="Captcha">
+                <button type="button" style="background:none;border:none;color:white;font-size:18px;">🔄</button>
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter Captch">
+            </div>
+
+            <button class="submit-btn" type="submit">Submit</button>
+
+            <div class="note">
+                For swifter resolution of your query you may call our 24-hours Customer Care : <strong>14646</strong>.<br>
+                Customers from outside India may call <strong>+91-8044647999 / +91-8035734999</strong>.
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

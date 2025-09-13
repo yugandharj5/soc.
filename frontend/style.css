@@ -1,0 +1,23 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+h2 {
+    color: #333;
+}
+section {
+    background-color: black;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 0.2rem 0.6rem rebeccapurple;
+}
+input,button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background: #833030;
+}
